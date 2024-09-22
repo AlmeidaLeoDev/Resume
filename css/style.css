@@ -1,0 +1,58 @@
+body{
+    background-color: aliceblue;
+}
+
+header {
+    background-color: rgb(142, 145, 147);
+    color: white;
+    border-radius: 10px;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+h2{
+    background-color: rgb(238, 236, 233);
+    border: 1px solid black; 
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    transition: 200ms; 
+}
+
+h2:hover{
+    color: blue;
+    padding: 5px;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+li:hover{
+    color: rgb(140, 0, 0);
+    padding: 8px;
+}
+
+dt{
+    background-color: rgb(232, 217, 225);
+    border: 1px solid black; 
+}
+
+dt:hover{
+    padding: 3px;
+}
+
+a{
+    text-decoration: none; 
+}
+
+a:hover{
+    background-color: brown;
+    color: white;
+}
